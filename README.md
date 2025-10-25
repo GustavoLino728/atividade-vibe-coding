@@ -1,4 +1,4 @@
-# 🍽️ Receitas App - Fullstack Application
+# 🍽️ OpenRecipes - Fullstack Application
 
 Aplicação fullstack para busca e consulta de receitas culinárias baseada nos ingredientes disponíveis.
 
@@ -20,9 +20,6 @@ Aplicação fullstack para busca e consulta de receitas culinárias baseada nos 
 - **Requests** (HTTP client)
 - **Flask-CORS**
 
-### API Externa
-- [API de Receitas](https://api-receitas-pi.vercel.app)
-
 ## 👥 Histórias de Usuário Implementadas
 
 ✅ **História 1**: Busca por Ingredientes  
@@ -30,7 +27,7 @@ Aplicação fullstack para busca e consulta de receitas culinárias baseada nos 
 ✅ **História 3**: Filtros por Tipo  
 ✅ **História 4**: Detalhes da Receita  
 ✅ **História 5**: Interface Responsiva  
-✅ **História 6**: Busca Avançada (para priorizar receitas com mais ingredientes em comum)  
+✅ **História 6**: Busca Avançada 
 
 ## 📊 Diagramas (Mermaid)
 
@@ -263,7 +260,7 @@ sequenceDiagram
 </details>
 
 ## Wireframe
-![wireframe-open-recipes](https://github.com/user-attachments/assets/31246852-e8aa-4ef5-a280-d6aed9c2b863)
+![wireframe-open-recipes](https://github.com/user-attachments/assets/31246852-e8aa-4ef5-a280-d6aed9c2b863) 
 
 ## 📚 Documentação Adicional
 - [📄 Histórico de Conversas com o perplexity (DOCX)](docs/historico_perplexity.docx)
