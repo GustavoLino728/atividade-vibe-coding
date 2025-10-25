@@ -1,8 +1,3 @@
-Ah, entendi o problema! Os blocos de código Mermaid **não estão sendo marcados corretamente** como ```mermaid. Vou corrigir isso:
-
-# README.md Corrigido
-
-```
 # 🍽️ Receitas App - Fullstack Application
 
 Aplicação fullstack para busca e consulta de receitas culinárias baseada nos ingredientes disponíveis.
@@ -230,41 +225,6 @@ flowchart LR
     style B fill:#FF9800,stroke:#E65100,stroke-width:2px
     style H fill:#4CAF50,stroke:#2E7D32,stroke-width:2px,color:#fff
     style G fill:#2196F3,stroke:#1565C0,stroke-width:2px,color:#fff
-```
-
-</details>
-
-<details>
-<summary><b>⚡ Estados do Componente</b></summary>
-
-```mermaid
-stateDiagram-v2
-    [*] --> 💤Idle
-    
-    💤Idle --> ⏳Loading : Buscar
-    ⏳Loading --> ✅Success : OK
-    ⏳Loading --> ❌Error : Falha
-    
-    ✅Success --> ⏳Loading : Nova Busca
-    ❌Error --> ⏳Loading : Tentar Novamente
-    
-    ✅Success --> 💤Idle : Reset
-    ❌Error --> 💤Idle : Fechar
-    
-    note right of ⏳Loading
-        Spinner ativo
-        Desabilita ações
-    end note
-    
-    note right of ✅Success
-        Exibe receitas
-        Habilita interações
-    end note
-    
-    note right of ❌Error
-        Mensagem de erro
-        Botão retry
-    end note
 ```
 
 </details>
