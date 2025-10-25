@@ -2,10 +2,9 @@
 
 Aplicação fullstack para busca e consulta de receitas culinárias baseada nos ingredientes disponíveis.
 
-![Next.js](https://img.shields.io/badge/Next.js
-
-
-![React](https://img.shields.io/badge/React-19-61DAFB?style=flatio/badge/TypeScript-5-3178C6?style=/badge/Flask-3.0-000000?style=flat&logo=/badge/Python-3.11+-3776AB?style=flat&logo/badge/Tailwind-3.4-38B2AC 🚀 Tecnologias
+![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=Flask&logoColor=white)
+![Next.js](https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![React](https://img.shields.io/badge/-ReactJs-61DAFB?logo=react&logoColor=white&style=for-the-badge) 
 
 ### Frontend
 - **Next.js 15** (App Router)
@@ -24,15 +23,14 @@ Aplicação fullstack para busca e consulta de receitas culinárias baseada nos 
 ### API Externa
 - [API de Receitas](https://api-receitas-pi.vercel.app)
 
-## 📋 Funcionalidades
+## 👥 Histórias de Usuário Implementadas
 
-✅ Busca de receitas por ingredientes  
-✅ Filtros por tipo (doce, salgado, agridoce)  
-✅ Busca por nome/descrição  
-✅ Visualização detalhada de receitas  
-✅ Paginação de resultados  
-✅ Interface responsiva  
-✅ Sistema de match score (receitas com mais ingredientes disponíveis)  
+✅ **História 1**: Busca por Ingredientes  
+✅ **História 2**: Visualização de Lista  
+✅ **História 3**: Filtros por Tipo  
+✅ **História 4**: Detalhes da Receita  
+✅ **História 5**: Interface Responsiva  
+✅ **História 6**: Busca Avançada (para priorizar receitas com mais ingredientes em comum)  
 
 ## 🛠️ Instalação e Execução
 
@@ -93,25 +91,6 @@ GET /api/receitas/buscar?ingredientes=farinha,ovos&page=1&limit=10
 ```http
 GET /api/receitas/filtrar?tipo=doce&q=chocolate
 ```
-
-## 🎨 Design
-
-O design segue um wireframe com melhorias de UX/UI:
-- Interface limpa e intuitiva
-- Cores primárias: Amarelo (#FFC857) e Cinza escuro (#2D3142)
-- Cards de receitas com imagens
-- Sistema de tags para ingredientes
-- Paginação intuitiva
-- Loading states
-- Design responsivo mobile-first
-
-## 📱 Responsividade
-
-A aplicação é totalmente responsiva e funciona em:
-- **Desktop** (1920px+)
-- **Laptop** (1024px - 1919px)
-- **Tablet** (768px - 1023px)
-- **Mobile** (320px - 767px)
 
 ## 📊 Diagramas (Mermaid)
 
@@ -343,6 +322,28 @@ sequenceDiagram
 
 </details>
 
+## Wireframe
+![wireframe-open-recipes](https://github.com/user-attachments/assets/31246852-e8aa-4ef5-a280-d6aed9c2b863)
+
+## 🎨 Design
+
+O design segue um wireframe com melhorias de UX/UI:
+- Interface limpa e intuitiva
+- Cores primárias: Amarelo (#FFC857) e Cinza escuro (#2D3142)
+- Cards de receitas com imagens
+- Sistema de tags para ingredientes
+- Paginação intuitiva
+- Loading states
+- Design responsivo mobile-first
+
+## 📱 Responsividade
+
+A aplicação é totalmente responsiva e funciona em:
+- **Desktop** (1920px+)
+- **Laptop** (1024px - 1919px)
+- **Tablet** (768px - 1023px)
+- **Mobile** (320px - 767px)
+
 ## 🧪 Testes
 
 Para testar a aplicação:
@@ -355,15 +356,6 @@ Para testar a aplicação:
    - Filtros por tipo
    - Paginação
    - Visualização de detalhes
-
-## 👥 Histórias de Usuário Implementadas
-
-✅ **História 1**: Busca por Ingredientes  
-✅ **História 2**: Visualização de Lista  
-✅ **História 3**: Filtros por Tipo  
-✅ **História 4**: Detalhes da Receita  
-✅ **História 5**: Interface Responsiva  
-✅ **História 6**: Busca Avançada  
 
 ## 📝 Notas de Desenvolvimento
 
